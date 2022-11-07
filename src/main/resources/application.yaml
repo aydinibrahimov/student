@@ -1,0 +1,15 @@
+app:
+  name: student info app
+  version: app version 2.0.1
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/student_info?createDatabaseIfNotExist=true&useSSl=true
+    username: ${DB_CONNECTION_USERNAME:root}
+    password: ${DB_CONNECTION_PASSWORD:12345}
+  jpa:
+    hibernate:
+      ddl-auto: update
