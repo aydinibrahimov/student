@@ -24,6 +24,8 @@ public class StudentController {
 
 @GetMapping()
     public String getAppDetails(){
+    appConfig.getDevelopers().stream().forEach(System.out::println);
+    appConfig.getNumbers().forEach((k,v)->System.out.println(k+"="+v));
 return (appConfig.getName()+" \n "+appConfig.getVersion());
     }
 }

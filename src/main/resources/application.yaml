@@ -1,6 +1,15 @@
 app:
   name: student info app
   version: app version 2.0.1
+
+  developers:
+    - Aydin
+    - Ali
+    - Eldar
+  numbers:
+    one: 1
+    two: 2
+    three: 3
 server:
   port: 9090
 

@@ -3,3 +3,4 @@ databaseChangeLog:
       file: db/changelog/v-0.1/db.student-table-20200725.yaml
   - include:
       file: db/changelog/v-0.1/db.student-table-add-clm-20200725-1.yaml
+
