@@ -7,9 +7,10 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/student_info?createDatabaseIfNotExist=true&useSSl=true
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/elm?createDatabaseIfNotExist=true&useSSl=true
     username: ${DB_CONNECTION_USERNAME:root}
     password: ${DB_CONNECTION_PASSWORD:12345}
   jpa:
     hibernate:
       ddl-auto: update
+

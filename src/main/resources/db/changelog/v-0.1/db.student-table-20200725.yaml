@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: 20200725-4
+      id: 20200725
       author: aydinibrahimov
       changes:
         - createTable:

@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20200725-1
+      author: aydinibrahimov
+      changes:
+        - addColumn:
+            tableName: student
+            columns:
+              - column:
+                  name: age
+                  type: varchar(50)
